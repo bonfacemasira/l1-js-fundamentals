@@ -5,31 +5,33 @@ function printValue(value){
 
 // 1.0 DEFINE VARIABLES
 //TODO: ADD fixed variable
-
+const pi = 3.14159;
 
 //TODO: ADD redeclarable variable
-
+var radius = 22;
 
 //TODO: ADD re-assignable but not redeclarable variable
-
+let age = 26;
 
 // 2.0 DIFFERENT DATA TYPES
 //TODO: Create a fixed variable with a number value
-
+const num1 = 28;
 
 //TODO: Create a redeclarable variable with a boolean value
-
+var isAdult = true;
 
 //TODO: Create a re-assignable variable with a string value
-
-
+let firstName = 'Bonface';
+let lastName = 'Masira';
 
 // 3.0 STRING OPERATIONS
 //TODO: Concatenate string (+)
-
+let fullName = firstName + ' ' + lastName;
+printValue("FullName: " + fullName)
 
 //TODO: Interpolate string (`${}`)
-
+let otherName = `Name: ${firstName} ${lastName}`;
+printValue(otherName)
 
 //TODO: Convert to uppercase
 
