@@ -27,11 +27,11 @@ let lastName = 'Masira';
 // 3.0 STRING OPERATIONS
 //TODO: Concatenate string (+)
 let fullName = firstName + ' ' + lastName;
-printValue("FullName: " + fullName)
+//printValue("FullName: " + fullName)
 
 //TODO: Interpolate string (`${}`)
 let otherName = `Name: ${firstName} ${lastName}`;
-printValue(otherName)
+//printValue(otherName)
 
 //TODO: Convert to uppercase
 
@@ -73,7 +73,18 @@ printValue(otherName)
 
 // 5.0 CONTROL FLOW
 // TODO: if-else statement
-
+const wheels = 8;
+if (wheels>4) {
+    printValue("This is a truck.")
+} else if (wheels === 4){
+    printValue('This is a car.')
+} else if (wheels === 3) {
+    printValue('This is a tuktuk.')
+} else if (wheels === 2) {
+    printValue('This is a bike')
+} else {
+    printValue('This is not an automobile.')
+}
 
 //TODO: switch-case
 
