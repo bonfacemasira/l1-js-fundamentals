@@ -87,9 +87,37 @@ if (wheels>4) {
 }
 
 //TODO: switch-case
+// GRADES [A, B, C, D]
+const grades ='C';
+
+//switch syntax
+// switch (variable) {
+//     case option1:
+//         code
+//         break;
+//     case option2:
+//         code;
+//         break;
+
+//     default:
+//         break;
+// }
+
+switch (grades) {
+    case 'A':
+        printValue('Excellent!!')
+        break;
+    case 'B':
+        printValue('Good work.')
+        break;
+    case 'C':
+        printValue('Well Done.')
+        break;
 
 
-
-
+    default:
+        printValue('You look lost.')
+        break;
+}
 
 
